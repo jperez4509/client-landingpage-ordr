@@ -64,6 +64,9 @@ input[type="email"] {
     border: 1px solid #C6C6C6;
     width: 100%;
 }
+.hs_email.hs-email.hs-fieldtype-text.field.hs-form-field {
+    width: 100%;
+}
 input[type="submit"] {
     height: 50px;
     border-radius: 0px 50px 50px 0px;
@@ -74,6 +77,11 @@ input[type="submit"] {
     padding: 0px 25px;
     font-weight: 700;
     margin: 0px;
+}
+.hs_submit .actions {
+    margin-top: 18px;
+    margin-bottom: 18px;
+    padding: 6px 0px 0px 0px;
 }
 section#landing-body {
     margin: 225px auto 125px;
